@@ -1,0 +1,46 @@
+*{
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+    background-color: black;
+}
+
+header {
+    position: static;
+    top: 0;
+    display: inline
+  }
+
+section{
+    color: Red;
+    margin-bottom: 30px;
+}
+
+#submit{
+    display:block;
+    font-size:20px;
+    text:bold;
+    color: white;
+    margin:0 auto;
+}
+
+#image{
+    height: 300px;
+    width: 400px;
+    margin: 30px;
+    border: 15px solid rgb(151, 88, 88);
+    padding: 30px;
+}
+
+#comment{
+    height:100px;
+    width:200px;
+}
+
+p{
+    color:rgb(5, 236, 5);
+}
+
+.link{
+    color:blue;
+}

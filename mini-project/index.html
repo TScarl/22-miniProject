@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<header>
+  <h1>Tom's webpage </h1>
+  <link href = './assets/css' rel = "stylesheet">
+  <img id="image" src="https://thumbs.dreamstime.com/b/beautiful-rain-forest-ang-ka-nature-trail-doi-inthanon-national-park-thailand-36703721.jpg" alt = "mossy pathway to somewhere, wanna go there?">
+  <nav>
+    <a class="link" href="#about">About</a>
+    <a class="link"href="#contact">Contact</a>
+    <a class="link"href="#section1">body</a>
+</nav>
+</header>
+
+<body>
+  <h2 class="Uploading">Uploading, please wait...</h2>
+  <section id="section1">While you wait for your website to load please take a walk along our mossy path to... somewhere. We thank you for your patience. Please come again</section>
+  <section>I know, I know, this all looks very websitey, but believe me, its still loading. any moment now...</section>
+  <section>If you feel like its taken a very long time to load the website, feel free to leave your name, email and a comment and we'll be sure to get back to you when the website has finsihed loading, thank you!</section>
+  <form>
+    <label for="name">Name:</label>
+    <input type="text" id="name" name="name"><br><br>
+    
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email"><br><br>
+
+    <div>
+      <label for="comment">Comment:</label>
+      <textarea type="comment" id="comment" name="comment"></textarea>
+    </div>
+
+    <input type="submit" value="Submit" id="submit">
+    <script>
+      document.getElementById("submit").addEventListener("click", function(event){
+        event.preventDefault();
+      });
+    </script>
+
+
+  </form>
+  <p>Sure would be nice if you could actually submit your name, email and comment, wouldn't it. I'm sure that function will become available once the website has loaded... probably.</p>  
+</body>
+
+<footer>
+  <h3 id="about">about me</h3>
+  <p>Do you ever wonder if your a human or a website?</p>
+  <p>gee wiz man, that's deep</p>
+  <h4 id="contact">Contact Info</h4>
+<p>Email: Somewhere@github.com   Phone: (614)555 666 7779</p>
+</footer>
+
+</html>
